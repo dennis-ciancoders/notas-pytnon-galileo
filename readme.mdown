@@ -1,0 +1,2 @@
+# Ciencia de Datos en Python, Seccion V
+**Apuntes de clase**
