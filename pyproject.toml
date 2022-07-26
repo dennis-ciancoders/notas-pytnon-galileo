@@ -4,8 +4,12 @@ version = "0.1.0"
 description = ""
 authors = ["Dennis Xiloj <denjohx@gmail.com>"]
 
+[[tool.poetry.source]]
+name = "jax"
+url = "https://storage.googleapis.com/jax-releases/jax_releases.html"
+
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.11"
 pandas = "^1.4.1"
 numpy = "^1.22.2"
 Pillow = "^9.0.1"
@@ -16,6 +20,18 @@ nbformat = "^5.2.0"
 lxml = "^4.8.0"
 sklearn = "^0.0"
 beautifulsoup4 = "^4.10.0"
+pydotplus = "^2.0.2"
+dalle-mini = "^0.1.0"
+ipywidgets = "^7.7.0"
+scipy = "^1.8.1"
+jax = {extras = ["cuda11_cudnn82"], version = "^0.3.13"}
+pytesseract = "^0.3.9"
+tqdm = "^4.64.0"
+keras-ocr = {git = "https://github.com/dennis-ciancoders/keras-ocr.git"}
+tensorflow = "^2.9.1"
+selenium = "^4.2.0"
+html5lib = "^1.1"
+opencv-python = "^4.6.0.66"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.9.1"
